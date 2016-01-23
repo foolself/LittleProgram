@@ -6,4 +6,5 @@ Some little program at daily time.
 * [color.pde](https://github.com/foolself/LittleProgram/blob/master/color.pde) : Draw a colorful circle with Processing
 * [Quicksort.java](https://github.com/foolself/LittleProgram/blob/master/Quicksort.java) : Quicksort the most classical algoithm with Java
 * [gobang.pde](https://github.com/foolself/LittleProgram/blob/master/gobang.pde) : 一个简单的五子棋游戏 with Processing
-* [lihextoten.c](https://github.com/foolself/LittleProgram/blob/master/hextoten.c) hex to ten with C
+* [lihextoten.c](https://github.com/foolself/LittleProgram/blob/master/hextoten.c) : hex to ten with C
+* [spider.py](https://github.com/foolself/LittleProgram/blob/master/spider.py) : 一个简单的爬虫，下载网页中图片的例子
