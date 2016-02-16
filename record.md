@@ -29,4 +29,4 @@
 `drop database dbname;`   
 
 导出数据库   
-`mysqldump -u root -p dbname > qiyuanhualang.sql;    
+`mysqldump -u root -p dbname > qiyuanhualang.sql;`    
