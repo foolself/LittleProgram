@@ -1,4 +1,7 @@
 # Linux 命令
+root 密码   
+`sudo passwd`   
+
 创建文件软链接   
 `ln -s /source linkname`   
 在用户目录下创建可执行文件的链接   
