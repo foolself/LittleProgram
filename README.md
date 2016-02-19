@@ -8,3 +8,4 @@ Some little program at daily time.
 * [gobang.pde](https://github.com/foolself/LittleProgram/blob/master/gobang.pde) : 一个简单的五子棋游戏 with Processing
 * [lihextoten.c](https://github.com/foolself/LittleProgram/blob/master/hextoten.c) : hex to ten with C
 * [spider.py](https://github.com/foolself/LittleProgram/blob/master/spider.py) : 一个简单的爬虫，下载网页中图片的例子
+* [spider.py](https://github.com/foolself/LittleProgram/blob/master/TulingRobot.java) : java 调用图灵机器人例子
