@@ -9,3 +9,6 @@ Some little program at daily time.
 * [lihextoten.c](https://github.com/foolself/LittleProgram/blob/master/hextoten.c) : hex to ten with C
 * [spider.py](https://github.com/foolself/LittleProgram/blob/master/spider.py) : 一个简单的爬虫，下载网页中图片的例子
 * [spider.py](https://github.com/foolself/LittleProgram/blob/master/TulingRobot.java) : java 调用图灵机器人例子
+* [primePlot.py](https://github.com/foolself/LittleProgram/blob/master/primePlot.py) : 用 matplotlib 库画图，极坐标表示下，500 - 3000 中的素数呈现规律
+* [TowerOfHanoi.cpp](https://github.com/foolself/LittleProgram/blob/master/TowerOfHanoi.cpp) : C++ 递归应用，汉诺塔
+
