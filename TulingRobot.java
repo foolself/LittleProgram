@@ -3,7 +3,7 @@ import java.util.*;
 import java.io.*;
 
 class TulingRobot {
-	private static String APIKEY = "YOUR KEY";
+	private static String APIKEY = "f75c7d0da63c567fa90af0b93d455ffd";
 
 	public static void main(String[] args) throws IOException {
 		String input = "你好啊";
@@ -24,6 +24,8 @@ class TulingRobot {
 		// 断开连接
 		connection.disconnect();
 		String result = sb.toString();
+		System.out.println(result);
+		
 		String[] results = new String[10];
 		results = result.split(":");
 		String answer = results[results.length - 1];

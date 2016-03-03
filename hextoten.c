@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+#include <ctype.h>
 int hextoten(char a[5]) {
 	int i,num;
 	char ch;
@@ -36,7 +36,7 @@ char *strupr(char *str)
 void main() {
 	char strhex[5]="abc";
 	int numten,k;
-	strupr(strhex);
+	// strupr(strhex);
 	printf("%s\n", strupr(strhex));
 	numten=hextoten(strhex);
 	printf("NUM=%d\n",numten);
