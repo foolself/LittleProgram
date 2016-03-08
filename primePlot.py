@@ -10,9 +10,10 @@ def check(num) :
 			return True
 	return False
 
-tal = 3000
+tal = 5000
+begin = 500
 # plot all natural number in 500 - tal
-M = np.linspace(500, tal, tal - 500,endpoint=True)
+M = np.linspace(begin, tal, tal - 500,endpoint=True)
 # plt.figure(figsize=(8,6), dpi=100)
 X = np.sin(M) * M
 Y = np.cos(M) * M
@@ -20,7 +21,7 @@ plt.scatter(Y,X,5, color = 'blue', marker = 'o')
 
 # plot prime number in 500 - tal
 M_ = []
-for x in xrange(500, tal):
+for x in xrange(begin, tal):
 	if (not check(x)):
 		M_.append(x)
 Y_ = np.sin(M_) * M_

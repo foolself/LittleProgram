@@ -34,7 +34,7 @@ char *strupr(char *str)
 }
 
 void main() {
-	char strhex[5]="abc";
+	char strhex[5]="7fff";
 	int numten,k;
 	// strupr(strhex);
 	printf("%s\n", strupr(strhex));

@@ -11,6 +11,9 @@ root 密码
 修改 文件/文件夹 权限   
 `chomd *** filename`   
 
+编译多个 c/c++ 源文件，链接成 test 可执行文件   
+`g++/gcc test.cpp fun.cpp -o test`
+
 # mysql 命令
 进入mysql   
 `mysql -u root -p`   
