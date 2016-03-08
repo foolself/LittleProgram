@@ -1,6 +1,6 @@
 # Little Program
 Some little program at daily time.
-### Discription List:
+### Description List:
 * [Calendar.c](https://github.com/foolself/LittleProgram/blob/master/Calendar.c), [CalendarPro.c](https://github.com/foolself/LittleProgram/blob/master/CalendarPro.c) : a program to print a calendar of one year
 * [probar.py](https://github.com/foolself/LittleProgram/blob/master/probar.py) : Implement simple a processing bar in cmd with python
 * [color.pde](https://github.com/foolself/LittleProgram/blob/master/color.pde) : Draw a colorful circle with Processing
@@ -12,4 +12,5 @@ Some little program at daily time.
 * [primePlot.py](https://github.com/foolself/LittleProgram/blob/master/primePlot.py) : 用 matplotlib 库画图，极坐标表示下，500 - 3000 中的素数呈现规律
 * [TowerOfHanoi.cpp](https://github.com/foolself/LittleProgram/blob/master/TowerOfHanoi.cpp) : C++ 递归应用，汉诺塔
 * [decrypt](https://github.com/foolself/LittleProgram/blob/master/decrypt) : 凯撒密码解码
+* [stack](https://github.com/foolself/LittleProgram/blob/master/stack) : C++ 实现堆栈数据结构示例
 
