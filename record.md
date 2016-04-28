@@ -36,3 +36,18 @@ root 密码
 
 导出数据库   
 `mysqldump -u root -p dbname > qiyuanhualang.sql;`    
+
+# java 
+Linux 下 编译运行 带有 jar 包 的 java 程序   
+`javac -cp commons-codec-1.9.jar BaiduTranslate.java`   
+`java -cp commons-codec-1.9.jar:. BaiduTranslat`   
+数据类型转换   
+String to int :   
+int i = Integer.parseInt(str);   
+char to int :   
+int i = Integer.parseInt(char + "");   
+String to Float :   
+Float f = Float.parseFloat(str);   
+int to String :   
+String str = Integer.toString(int);   
+

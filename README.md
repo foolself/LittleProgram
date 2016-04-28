@@ -13,4 +13,5 @@ Some little program at daily time.
 * [TowerOfHanoi.cpp](https://github.com/foolself/LittleProgram/blob/master/TowerOfHanoi.cpp) : C++ 递归应用，汉诺塔
 * [decrypt](https://github.com/foolself/LittleProgram/blob/master/decrypt) : 凯撒密码解码
 * [stack](https://github.com/foolself/LittleProgram/blob/master/stack) : C++ 实现堆栈数据结构示例
+* [TankWar](https://github.com/foolself/LittleProgram/blob/master/TankWar) : pygame实践，还原童年经典游戏 坦克大战
 
