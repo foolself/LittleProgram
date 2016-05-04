@@ -76,3 +76,10 @@ Float f = Float.parseFloat(str);
 int to String :   
 String str = Integer.toString(int);   
 
+# git
+
+`git remote -v`
+`git remote rm *`
+
+* `git remote add origin git@github.com:username/repo.git`
+* `git remote add origin https://github.com/username/repo.git`
