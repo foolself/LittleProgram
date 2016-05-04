@@ -2,7 +2,8 @@
 root 密码   
 `sudo passwd`   
 
-解决在执行 sudo 命令时慢的问题：   
+### 解决在执行 sudo 命令时慢的问题：
+
 查看本机name   
 `hostname`   
 打开 hosts 文件，检查本机 name 是否在   
@@ -10,22 +11,26 @@ root 密码
 `127.0.0.1       localhost your_hosts_name`   
 这一行中，如果没有，添加进去，搞定。   
 
+### ln
 创建文件软链接   
 `ln -s /source linkname`   
 在用户目录下创建可执行文件的链接   
 `ln -s /source ./linkname`   
 执行命令 `./linkname`   
 
+### 权限
 修改 文件/文件夹 权限   
 `chomd *** filename`   
+
+### gcc
 
 编译多个 c/c++ 源文件，链接成 test 可执行文件   
 `g++/gcc test.cpp fun.cpp -o test`
 
-## 解压缩
+### 解压缩
 tar.xz		tar xvJf ***.tar.xz
 
-## 查找
+### 查找
 
 查找并列出当前目录下所有含有 "IBM" 的文件   
 `find .|xargs grep -ri "IBM" -l`   
@@ -54,10 +59,14 @@ tar.xz		tar xvJf ***.tar.xz
 `mysqldump -u root -p dbname > qiyuanhualang.sql;`    
 
 # java 
-Linux 下 编译运行 带有 jar 包 的 java 程序   
+
+### Linux 下 编译运行 带有 jar 包 的 java 程序   
+
 `javac -cp commons-codec-1.9.jar BaiduTranslate.java`   
 `java -cp commons-codec-1.9.jar:. BaiduTranslat`   
-数据类型转换   
+
+### 数据类型转换   
+
 String to int :   
 int i = Integer.parseInt(str);   
 char to int :   
