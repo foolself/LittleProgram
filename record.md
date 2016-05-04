@@ -2,6 +2,14 @@
 root 密码   
 `sudo passwd`   
 
+解决在执行 sudo 命令时慢的问题：   
+查看本机name   
+`hostname`   
+打开 hosts 文件，检查本机 name 是否在   
+`sudo vim /etc/hosts`   
+`127.0.0.1       localhost your_hosts_name`   
+这一行中，如果没有，添加进去，搞定。   
+
 创建文件软链接   
 `ln -s /source linkname`   
 在用户目录下创建可执行文件的链接   
@@ -13,6 +21,14 @@ root 密码
 
 编译多个 c/c++ 源文件，链接成 test 可执行文件   
 `g++/gcc test.cpp fun.cpp -o test`
+
+## 解压缩
+tar.xz		tar xvJf ***.tar.xz
+
+## 查找
+
+查找并列出当前目录下所有含有 "IBM" 的文件   
+`find .|xargs grep -ri "IBM" -l`   
 
 # mysql 命令
 进入mysql   
